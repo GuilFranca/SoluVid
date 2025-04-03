@@ -7,6 +7,9 @@
 /* Importando estilo login */
 @import url(./css/login.css);
 
+/* Importando estilo container cards */
+@import url(./css/container__cards.css);
+
 :root {
     --primary-font: "Poppins", sans-serif; /* Fonte primária automatica */
     --blue: #2B2D80;
