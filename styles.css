@@ -13,4 +13,5 @@
 :root {
     --primary-font: "Poppins", sans-serif; /* Fonte primária automatica */
     --blue: #2B2D80;
+    --blue-hover: #2e30a4;
 }

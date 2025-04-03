@@ -8,6 +8,7 @@
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
     padding: 1em;
     align-items: center;
+    border-radius: 15px;
 }
 
 .container__login img {
@@ -15,16 +16,24 @@
     text-align: center;
 }
 
-form {
+.form__login {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
     margin-bottom: 1em;
+    width: 100%;
 }
 
 .input__login {
     border: 1px solid gray;
     padding: 1px;
+    width: 100%;
+}
+
+.campo__input {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
 }
 
 #btn__login {
@@ -34,4 +43,9 @@ form {
     color: white;
     font-size: 14px;
     width: 50%;
+    cursor: pointer;
+}
+
+#btn__login:hover {
+    background-color: var(--blue-hover);
 }
