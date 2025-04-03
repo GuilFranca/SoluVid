@@ -26,7 +26,7 @@
 
 .input__login {
     border: 1px solid gray;
-    padding: 1px;
+    padding: 2px;
     width: 100%;
 }
 
@@ -48,4 +48,8 @@
 
 #btn__login:hover {
     background-color: var(--blue-hover);
+}
+
+.mensagem__erro {
+    color: red;
 }
