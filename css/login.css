@@ -20,8 +20,8 @@
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    margin-bottom: 1em;
     width: 100%;
+    margin-bottom: 0.5em;
 }
 
 .input__login {
@@ -52,4 +52,9 @@
 
 .mensagem__erro {
     color: red;
+}
+
+.mensagem__erro {
+    font-size: 12px;
+    color: #f5f5f5;
 }
