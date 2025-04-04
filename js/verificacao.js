@@ -27,7 +27,7 @@ function login() {
         alert('Login bem-sucedido!');
         window.location.href = "main.html"
     } else {
-        mensagemErro.style.color = 'red';
+        mensagemErro.style.visibility = 'visible';
         document.getElementById('username').value = '';
         document.getElementById('senha').value = '';
     }
