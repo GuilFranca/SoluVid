@@ -11,7 +11,13 @@ senha.addEventListener('keypress', (event) => {
     if (event.key === 'Enter') {
         login();
     }
-})
+});
+
+username.addEventListener('focus', () => {
+    setTimeout(() =>{
+        username.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }, 300);
+});
 
 // Função de login
 function login() {
