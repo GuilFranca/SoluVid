@@ -19,6 +19,12 @@ username.addEventListener('focus', () => {
     }, 300);
 });
 
+senha.addEventListener('focus', () => {
+    setTimeout(() =>{
+        senha.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }, 300);
+});
+
 // Função de login
 function login() {
     let username = document.getElementById('username').value;
